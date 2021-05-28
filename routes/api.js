@@ -1,5 +1,3 @@
-//copied from portfolio - Adapt this to current app.
-
 const router = require("express").Router();
 const db = require("../models/");
 

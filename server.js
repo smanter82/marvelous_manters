@@ -1,5 +1,3 @@
-//copied from Dev Fit - don't forget to fix this.
-
 const express = require("express");
 const path = require("path");
 const mongoose = require("mongoose");
@@ -19,7 +17,7 @@ if (process.env.NODE_ENV === "production") {
 
 // Connect to the Mongo DB
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/gymManagementSystem",
+  process.env.MONGODB_URI || "mongodb://localhost/marvelousManters",
   {
     useUnifiedTopology: true,
     useNewUrlParser: true,

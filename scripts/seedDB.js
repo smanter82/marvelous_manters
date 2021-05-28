@@ -1,10 +1,8 @@
-//copied from portfolio - Adapt this to new app.
-
 const mongoose = require("mongoose");
 const db = require("../models");
 
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/portfolioContact",
+  process.env.MONGODB_URI || "mongodb://localhost/marvelousManters",
   {
     useUnifiedTopology: true,
     useNewUrlParser: true,
