@@ -1,20 +1,13 @@
-import React from "react";
-// import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
+import OurNavbar from "../components/OurNavbar.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/HomePage.css";
 import wordLogo from "../images/pageImages/pageLogoWithText.jpg";
 
-export default function Maiacorn() {
+export default function HomePage() {
   return (
     <>
-      {/* <Navbar> */}
+      <OurNavbar></OurNavbar>
       <p>Welcome to the Manters' Special Talents Website!</p>
-      <Nav>
-        <Nav.Link href="/salamander">SalaMander</Nav.Link>
-        <Nav.Link href="/maiacorn">Maiacorn</Nav.Link>
-        <Nav.Link href="/duncman">DuncMan</Nav.Link>
-      </Nav>
       <img src={wordLogo} alt="Marvelous Manters logo" />
       {/* </Navbar> */}
     </>
