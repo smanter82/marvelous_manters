@@ -3,6 +3,7 @@ import React from "react";
 import Nav from "react-bootstrap/Nav";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/HomePage.css";
+import wordLogo from "../images/pageImages/pageLogoWithText.jpg";
 
 export default function Maiacorn() {
   return (
@@ -14,6 +15,7 @@ export default function Maiacorn() {
         <Nav.Link href="/maiacorn">Maiacorn</Nav.Link>
         <Nav.Link href="/duncman">DuncMan</Nav.Link>
       </Nav>
+      <img src={wordLogo} alt="Marvelous Manters logo" />
       {/* </Navbar> */}
     </>
   );
