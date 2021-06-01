@@ -7,9 +7,10 @@ export default function HomePage() {
   return (
     <>
       <OurNavbar></OurNavbar>
-      <p>Welcome to the Manters' Special Talents Website!</p>
-      <img src={wordLogo} alt="Marvelous Manters logo" />
-      {/* </Navbar> */}
+      <div class="homePage">
+        <p>Welcome to the Manters' Special Talents Website!</p>
+        <img src={wordLogo} alt="Marvelous Manters logo" />
+      </div>
     </>
   );
 }

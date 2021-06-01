@@ -7,7 +7,9 @@ export default function DuncMan() {
   return (
     <>
       <OurNavbar></OurNavbar>
-      <p>Welcome to Duncan's Page!</p>;
+      <div class="duncManPage">
+        <p>Welcome to Duncan's Page!</p>;
+      </div>
     </>
   );
 }
