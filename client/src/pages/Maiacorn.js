@@ -3,13 +3,16 @@ import { Container, Card, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/Maiacorn.css";
 import OurNavbar from "../components/OurNavbar";
-import maiaBackground from "../images/pageImages/sharon-mccutcheon-9Rc00n8ie-Y-unsplash.jpg";
+import maiaBackground from "../images/pageImages/sharon-mccutcheon-zi1GRsLym3s-unsplash.jpg";
 
 export default function Maiacorn() {
   return (
     <>
       <OurNavbar></OurNavbar>
-      <div style={{ backgroundImage: `url(${maiaBackground})` }}>
+      <div
+        class="maiacornPage"
+        style={{ backgroundImage: `url(${maiaBackground})` }}
+      >
         <Container>
           <Row>
             <Col></Col>

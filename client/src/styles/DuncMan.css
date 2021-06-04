@@ -1,9 +1,5 @@
 .duncManPage {
-  background-image: url("../images/pageImages/sharon-mccutcheon-c552nUDkL_Q-unsplash.jpg");
   background-size: cover;
-  background-position: center;
-  background-repeat: repeat;
-  height: 100%;
-  width: 100%;
-  /* display: inline-block; */
+  background-repeat: no-repeat;
+  height: 100vh;
 }

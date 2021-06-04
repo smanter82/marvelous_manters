@@ -3,17 +3,18 @@ import { Container, Card, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/HomePage.css";
 import wordLogo from "../images/pageImages/pageLogoWithText.jpg";
+import homeImage from "../images/pageImages/pawel-czerwinski-6lQDFGOB1iw-unsplash.jpg";
 
 export default function HomePage() {
   return (
     <>
       <OurNavbar></OurNavbar>
-      <div class="homePage">
+      <div class="homePage" style={{ backgroundImage: `url(${homeImage}` }}>
         <Container>
           <Row>
             <Col></Col>
             <Col>
-              <Card style={{ width: "50rem" }}>
+              <Card class="m-5" style={{ width: "50rem" }}>
                 <Card.Body>
                   <Card.Title class="text-center">
                     Welcome to the Manters' Special Talents Website!
