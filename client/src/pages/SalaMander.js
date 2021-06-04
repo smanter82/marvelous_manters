@@ -1,4 +1,5 @@
 import React from "react";
+import { Container, Card, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/SalaMander.css";
 import OurNavbar from "../components/OurNavbar";
@@ -6,9 +7,19 @@ import sarahBackground from "../images/pageImages/pawel-czerwinski-z7prq6BtPE4-u
 
 export default function SalaMander() {
   return (
-    <div style={{ backgroundImage: `url(${sarahBackground})` }}>
+    <>
       <OurNavbar></OurNavbar>
-      <p>Welcome to Sarah's Page!</p>;
-    </div>
+      <div style={{ backgroundImage: `url(${sarahBackground})` }}>
+        <Container>
+          <Row>
+            <Col></Col>
+            <Col>
+              <p style={{ color: "white" }}>Welcome to Sarah's Page!</p>
+            </Col>
+            <Col></Col>
+          </Row>
+        </Container>
+      </div>
+    </>
   );
 }
