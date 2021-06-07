@@ -13,13 +13,13 @@ export default function DuncMan() {
     <>
       <OurNavbar></OurNavbar>
       <div
-        class="duncManPage"
+        className="duncManPage"
         style={{ backgroundImage: `url(${duncanBackground})` }}
       >
         <Container>
           <Row>
             <Col>
-              <Card class="m-5" style={{ width: "18rem" }}>
+              <Card className="m-5" style={{ width: "18rem" }}>
                 <Card.Img
                   variant="top"
                   src={superSunOrigin}
@@ -37,7 +37,7 @@ export default function DuncMan() {
             </Col>
             <Col>
               <p>Welcome to Duncan's Page!</p>
-              <Card class="m-5" style={{ width: "18rem" }}>
+              <Card className="m-5" style={{ width: "18rem" }}>
                 <Card.Img
                   variant="top"
                   src={superSunBeginnings}
@@ -52,7 +52,7 @@ export default function DuncMan() {
               </Card>
             </Col>
             <Col>
-              <Card class="m-5" style={{ width: "18rem" }}>
+              <Card className="m-5" style={{ width: "18rem" }}>
                 <Card.Img
                   variant="top"
                   src={superSunComic}

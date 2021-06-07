@@ -9,14 +9,14 @@ export default function HomePage() {
   return (
     <>
       <OurNavbar></OurNavbar>
-      <div class="homePage" style={{ backgroundImage: `url(${homeImage}` }}>
+      <div className="homePage" style={{ backgroundImage: `url(${homeImage}` }}>
         <Container>
           <Row>
             <Col></Col>
             <Col>
-              <Card class="m-5" style={{ width: "50rem" }}>
+              <Card className="m-5" style={{ width: "50rem" }}>
                 <Card.Body>
-                  <Card.Title class="text-center">
+                  <Card.Title className="text-center">
                     Welcome to the Manters' Special Talents Website!
                   </Card.Title>
                   <Card.Img

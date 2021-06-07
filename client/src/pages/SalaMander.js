@@ -10,7 +10,7 @@ export default function SalaMander() {
     <>
       <OurNavbar></OurNavbar>
       <div
-        class="salaManderPage"
+        className="salaManderPage"
         style={{ backgroundImage: `url(${sarahBackground})` }}
       >
         <Container>

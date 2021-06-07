@@ -15,7 +15,7 @@ export default function Maiacorn() {
     <>
       <OurNavbar></OurNavbar>
       <div
-        class="maiacornPage"
+        className="maiacornPage"
         style={{ backgroundImage: `url(${maiaBackground})` }}
       >
         <Container>
