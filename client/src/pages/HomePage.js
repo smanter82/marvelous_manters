@@ -3,7 +3,7 @@ import { Container, Card, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/HomePage.css";
 import wordLogo from "../images/pageImages/pageLogoWithText.jpg";
-import homeImage from "../images/pageImages/pawel-czerwinski-6lQDFGOB1iw-unsplash.jpg";
+import homeImage from "../images/pageImages/backgrounds/pawel-czerwinski-6lQDFGOB1iw-unsplash.jpg";
 
 export default function HomePage() {
   return (
