@@ -1,5 +1,23 @@
 .salaManderPage {
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  background-size: 150%;
+}
+
+.manterMessCard {
+  background-color: rgb(0, 134, 137, 0.8);
+  color: rgb(47, 29, 59);
+  font-size: 2ch;
+  font-weight: bold;
+  margin-top: 2ch;
+  margin-bottom: 2ch;
+}
+
+.manterMessTitle {
+  font-weight: bold;
+  font-size: 3ch;
+}
+
+.pageTitle {
+  color: rgb(0, 134, 137, 0.8);
 }
