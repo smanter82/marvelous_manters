@@ -14,7 +14,7 @@ export default function SalaMander() {
         className="salaManderPage"
         style={{ backgroundImage: `url(${sarahBackground})` }}
       >
-        <Container>
+        <Container fluid>
           <Row>
             <Col sm={2}></Col>
             <Col>
@@ -94,9 +94,25 @@ export default function SalaMander() {
                 </Card>
               </div>
             </Col>
-            <Col sm={2}>
-              {/* Place this in a better spot!! */}
-              <h1 className="pageTitle">SalaMander</h1>
+            <Col sm={2} className="text-center">
+              <div className="mt-5 p-2 salamanderLinkDiv">
+                <h1 className="pageTitle">SalaMander</h1>
+                <a className="linkStyles" src="#">
+                  Article 1
+                </a>
+                <br />
+                <a className="linkStyles" src="#">
+                  Article 2
+                </a>
+                <br />
+                <a className="linkStyles" src="#">
+                  Article 3
+                </a>
+                <br />
+                <a className=" linkStyles" src="#">
+                  Article 4
+                </a>
+              </div>
             </Col>
           </Row>
         </Container>

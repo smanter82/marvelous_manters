@@ -20,4 +20,24 @@
 
 .pageTitle {
   color: rgb(0, 134, 137, 0.8);
+  font-family: "Aladin", cursive;
+  letter-spacing: 2px;
+  font-size: 5ch;
+}
+
+.linkStyles {
+  color: rgb(0, 134, 137, 0.8);
+  font-family: "Aladin", cursive;
+  letter-spacing: 2px;
+  font-size: 2.5ch;
+  line-height: 3ch;
+}
+
+a.linkStyles:hover {
+  color: rgb(47, 29, 59);
+}
+
+.salamanderLinkDiv {
+  border: rgb(47, 29, 59);
+  border-style: solid;
 }
