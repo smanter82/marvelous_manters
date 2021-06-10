@@ -16,10 +16,10 @@ export default function DuncMan() {
         className="duncManPage"
         style={{ backgroundImage: `url(${duncanBackground})` }}
       >
-        <Container>
+        <Container fluid>
           <Row>
-            <Col>
-              <Card className="m-5" style={{ width: "18rem" }}>
+            <Col sm={4}>
+              <Card className="m-5 mx-auto" style={{ width: "100%" }}>
                 <Card.Img
                   variant="top"
                   src={superSunOrigin}
@@ -35,9 +35,9 @@ export default function DuncMan() {
                 </Card.Body>
               </Card>
             </Col>
-            <Col>
-              <p>Welcome to Duncan's Page!</p>
-              <Card className="m-5" style={{ width: "18rem" }}>
+            <Col sm={4} className="text-center mt-5">
+              <h1 className="duncTitle">DuncMan</h1>
+              <Card className="m-5 mx-auto" style={{ width: "100%" }}>
                 <Card.Img
                   variant="top"
                   src={superSunBeginnings}
@@ -51,8 +51,8 @@ export default function DuncMan() {
                 </Card.Body>
               </Card>
             </Col>
-            <Col>
-              <Card className="m-5" style={{ width: "18rem" }}>
+            <Col sm={4}>
+              <Card className="m-5 mx-auto" style={{ width: "100%" }}>
                 <Card.Img
                   variant="top"
                   src={superSunComic}

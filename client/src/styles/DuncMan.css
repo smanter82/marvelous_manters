@@ -1,5 +1,20 @@
 .duncManPage {
   background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
+  background-repeat: repeat;
+  height: 100h;
+}
+
+/* .comicRow1 {
+  width: 100vw;
+} */
+
+/* .duncanContainer {
+  width: 100vw;
+} */
+
+.duncTitle {
+  font-family: "ZCOOL KuaiLe", cursive;
+  font-size: 6ch;
+  font-weight: bold;
+  letter-spacing: 10px;
 }
